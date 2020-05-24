@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Manoj Kumar - Full stack Developer, Resume</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
   <p>Upcoming Full Stack Developer, Check my projects in my <a href="https://github.com/mkumar97"><b>Github Profile</b></a></p>
   <hr>
   <h3>Work Experience</h3>
-  <table border="1">
+  <table class="Experience" border="1dp">
     <thead>
       <tr>
         <th>Period</th>
@@ -39,7 +40,7 @@
   </ol>
   <hr>
   <h3>Skills</h3>
-  <table border="1dp">
+  <table class="Skills" border="1dp">
     <tr>
       <td>
         <table>
@@ -84,17 +85,18 @@
 
   <hr>
 
-  <form class="" action="mailto:mkumar1@me.iitr.ac.in" method="post" enctype="text/plain>
+  <form class="" action="mailto:mkumar1@me.iitr.ac.in" method="post" enctype="text/plain">
+
     <label>If You wanna Schedule an appointment, Enter details. I will mail you a time slot</label><br>
-    <label>Your name </label>
-    <input type="text" name="your name" value=""><br>
-    <label>Contact No. </label>
-    <input type="mobile" name="contact number" value=""><br>
-    <label>E-Mail </label>
-    <input type="email" name="your email" value="">
-    <label>Your Message </label>
-    <textarea name="Anything you wanna say" rows="10" cols="50"></textarea><br>
-    <input type="submit" name="">
+    <label for="username">Your name </label>
+    <input id="username" type="text" name="your name" value=""><br>
+    <label for="contact">Contact No. </label>
+    <input id="contact" type="mobile" name="contact number" value=""><br>
+    <label for="email">E-Mail </label>
+    <input id="email" type="email" name="your email" value="">
+    <label for="message">Your Message </label>
+    <textarea id="message" name="Anything you wanna say" rows="10" cols="50"></textarea><br>
+    <input id="message" type="submit" name="">
   </form>
 </body>
 

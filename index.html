@@ -3,101 +3,115 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Manoj Kumar - Full stack Developer, Resume</title>
+  <title>Manoj Kumar</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Sacramento&family=Caveat:wght@700&family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- <img src="my_pic.jpg" alt="Profile"> -->
-  <h1>Manoj Kumar Modalavalasa</h1>
-  <p>Current Position : <em>Data Analyst @ Myntra Designs Pvt.Ltd</em></p>
-  <p>Upcoming Full Stack Developer, Check my projects in my <a href="https://github.com/mkumar97"><b>Github Profile</b></a></p>
-  <hr>
-  <h3>Work Experience</h3>
-  <table class="Experience" border="1dp">
-    <thead>
-      <tr>
-        <th>Period</th>
-        <th>Experience</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>May 2018 - July 2018</td>
-        <td>Internship in Rupeek</td>
-      </tr>
-      <tr>
-        <td>July 2019 - Present</td>
-        <td>Data Analyst at Myntra Designs Pvt.Ltd</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Online Courses and Certifications</h3>
-  <ol>
-    <li>Complete Android App Development in Kotlin on Udemy</li>
-    <li>Complete 2020 Web Development Bootcamp on Udemy</li>
-  </ol>
-  <hr>
-  <h3>Skills</h3>
-  <table class="Skills" border="1dp">
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>Android App Development</td>
-            <td>&#11088 &#11088 &#11088 &#11088 &#11088</td>
-          </tr>
-          <tr>
-            <td>Python Programming</td>
-            <td>&#11088 &#11088 &#11088 &#11088 &#11088</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Full Stack Development </td>
-            <td>&#11088 &#11088 &#11088 &#11088 &#11088</td>
-          </tr>
-          <tr>
-            <td>MySQL and SQL Server</td>
-            <td>&#11088 &#11088 &#11088 &#11088 &#11088</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <div class="profile"></div>
+    <div class="text">
+      <h1 class="headers">Hello, I'm Manoj Kumar Modalavalasa</h1>
+      <p>an Upcoming Full Stack Developer</p>
+    </div>
+
+  <div class="info">
+    <img id="about" src="person.png" alt="">
+    <p>Hi, I'm working as <em>Data Analyst @ Myntra Designs Pvt.Ltd</em>. I have a passion to create user interactive websites.
+    I'm a Self-taught <span class="highlight"> Full Stack Developer </span>. My <a href="https://github.com/mkumar97"><b>Github Profile</></a></p>
+  </div>
 
   <hr>
 
-  <h3>Hobbies</h3>
-  <ul>
-    <li>Watching Anime</li>
-    <li>Listening to Music</li>
-    <li>Listening to Conspiracy theories</li>
-  </ul>
+  <div class="experience">
+    <h3 class="headers">Work Experience</h3>
+    <div class="full-time1">
+      <img id="myntra" src="myntra.png" alt="Myntra Designs Pvt.Ltd">
+      <p><b>Data Analyst</b></p>
+      <p><b>Team : Logistics Excellence of Supply Chain Team</b></p>
+      <ol style="line-height: 2;">
+        <li>Developed a website for ground team to check status of items which are lost, on backend python script to map entered item id to our database.</li>
+        <li>Developed a Data Studio dashboard to track performance metrics, built on Gsheets where data is populated using python and MySQL</li>
+        <li>Analyze data to help in starting new Experience stores, and Automate Daily Reporting of performance metrics of Experience stores</li>
+      </ol>
+    </div>
+    <div class="intern">
+      <img id="rupeek" src="rupeek.png" alt="">
+      <p><b>Software Development Intern</b></p>
+      <p><b>Team : Product Development Team</b></p>
+      <ol style="line-height: 2;">
+        <li>Developed an Android App for internal communication of ground team with operations team for faster resolution of issues</li>
+        <li>Developed a website where manager gets live notifications of what is happening between operations team and ground team and check if any higher level authority is required</li>
+      </ol>
+    </div>
+  </div>
 
   <hr>
 
-  <h3>My Contact Info</h3>
+  <div class="skills">
 
+    <img id="laptop" src="laptop.png" alt="">
+    <h3 class="headers">Skills</h3>
+    <p>Programming Languages : Python, Kotlin, C++</p>
+    <p>Web Technologies : HTML5, CSS3</p>
+    <p>Version Control : Git and Github</p>
+    <p>Database Tools : MySQL Workbench, Azure SQL Server</p>
+    <p>IDE : Android Studio, Visual Studio Code, Atom</p>
+
+    <h3 class="headers">Online Courses</h3>
+    <p>Complete Android 10 & Kotlin Development Masterclass - Udemy</p>
+    <p>Complete 2020 Web Development Bootcamp - Udemy</p>
+
+  </div>
 
   <hr>
 
+  <div class="hobbies">
+
+    <h3 class="headers">Hobbies</h3>
+    <img id="hobbies" src="hobbies.png" alt="Hobbies">
+    <ul style="line-height: 2;">
+      <li>Listening to Music</li>
+      <li>Reading Books</li>
+      <li>Experimental Cooking</li>
+    </ul>
+
+  </div>
+
+  <hr>
+
+  <div class="contact">
+    <h3 class="headers">My Contact Info</h3>
+    <img id="contact" src="contact.png" alt="">
+
+    <a clas="links" href="www.linkedin.com/in/manojmkumar">LinkedIn</a>
+    <p>E-Mail : <b>mkumar1@me.iitr.ac.in</b> </p>
+    <p>Mobile No : 9441633441</p>
+
+  </div>
+
+  <!--
   <form class="" action="mailto:mkumar1@me.iitr.ac.in" method="post" enctype="text/plain">
 
     <label>If You wanna Schedule an appointment, Enter details. I will mail you a time slot</label><br>
+    <br>
     <label for="username">Your name </label>
     <input id="username" type="text" name="your name" value=""><br>
+    <br>
     <label for="contact">Contact No. </label>
     <input id="contact" type="mobile" name="contact number" value=""><br>
+    <br>
     <label for="email">E-Mail </label>
-    <input id="email" type="email" name="your email" value="">
+    <input id="email" type="email" name="your email" value=""><br>
+    <br>
     <label for="message">Your Message </label>
-    <textarea id="message" name="Anything you wanna say" rows="10" cols="50"></textarea><br>
-    <input id="message" type="submit" name="">
+    <textarea id="message" value="Anything you wanna say" rows="10" cols="50"></textarea><br>
+    <input id="message" type="submit" name="Send Message">
+
   </form>
+-->
 </body>
 
 </html>
